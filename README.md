@@ -1,4 +1,4 @@
-# Lab 1: Introduction to OpenCV Basics and Pixels
+# Lab 1: Introduction to OpenCV and the Mandrill Challenge
 
 > We run our labs with [Python 3.6+](https://www.python.org/downloads/).
 > For Windows, you might want to use [Conda](https://www.anaconda.com/products/distribution). 
