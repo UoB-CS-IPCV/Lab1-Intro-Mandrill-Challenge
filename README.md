@@ -55,12 +55,19 @@ Sample answers are available at `colourthr.py` if you are stuck.
 # Representation Basics – Pixels, Colours & Channels
 
 ## Task 5: Help mandrill
-Your task is to recover as much of the original mandrill colour image (2 channels, 8 bits per channel) from corrupted images, `mandrill0.jpg`, `mandrill1.jpg`, `mandrill2.jpg` and `mandrill3.jpg`.
+Your task is to recover as much of the original mandrill colour image (3 channels, 8 bits per channel) from corrupted images, `mandrill0.jpg`, `mandrill1.jpg`, `mandrill2.jpg` and `mandrill3.jpg`.
 
 1. View the corrupted images and, for each image, make a prediction of what has happened to it. Maybe look at individual colour channels or histograms to investigate your hypothesis.
 2. Write a small OpenCV program for each image which can reconstruct the original mandrill colour image from it as well as possible.
 
 Some images cannot be fully reconstructed.
 
+- Original mandrill `mandrillRGB.jpg`
+
+<img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrillRGB.jpg" height=200> 
+
+- Corrupted images, `mandrill0.jpg`, `mandrill1.jpg`, `mandrill2.jpg` and `mandrill3.jpg`
+
+<img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill0.jpg" height=200> <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill1.jpg" height=200> <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill2.jpg" height=200> <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill3.jpg" height=200>
 
 
