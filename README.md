@@ -23,14 +23,29 @@
 5. Install OpenCV packages: `$ pip install numpy opencv-python`, or `conda install numpy` then `conda install -c menpo opencv`
 6. To get out from the environment (when you finish your work): `$ deactivate`, or `conda deactivate`
 
+## Using the lab sheet
+
+There are two ways to use the lab sheet, you can either:
+
+- [create a new repo from this template](https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/generate) - **this is the recommended way**
+- download a [zip file](https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/archive/master.zip)
+
 ## Task 1: HelloOpenCV program 
 Study `hello.py` and run it using `python hello.py`.
+<details>
+    <summary>Hint</summary>
+<img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/hint/helloOpenCV.png" height=200>
+</details>
 
 ## Task 2: Load, display, create, draw and save the image
 Try to understand pixel representation in the image
 - `display.py` to load and display an image
 - `draw.py` to create, draw and save
 - `pixels.py` to access and set pixel values
+<details>
+    <summary>Hint</summary>
+<img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/hint/draw.png" height=200> <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/hint/pixels.png" height=200>
+</details>
 
 # Pixel Manipulation and Thresholding
 
