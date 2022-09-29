@@ -38,4 +38,29 @@ Try to understand pixel representation in the image
 - Now that you are able to handle images, your next task is to write an OpenCV-based program that loads the `mandrill.jpg` greyscale image and that, pixel by pixel, sets all pixels above a certain value (maybe start with 128) to white (255) and all pixels equal or below the value to black (0).
 - Experiment with different thresholding values and examine the resulting images. Can you highlight certain parts of the face (e.g. the nose, the eyes) with one or more specific thresholds?
 - Compare your results to the output of the inbuilt OpenCV function `threshold`.
+<details>
+    <summary>Hint</summary>
+Sample answers are available at `thr.py` if you are stuck.
+</details>
+
+## Task 4: Thresholding Colour Images
+- Whilst in greyscale images the brightness of a pixel is usually represented as a single byte in 2D array, colour images use three bytes to store information for one pixel, become 3D array. Bytes represent the BLUE, GREEN and RED channel in this order. 
+- Now, try to implement thresholding of the red, green and/or blue channels to highlight facial components in mandrillRGB.jpg, which now contains colour information.
+- Also check the OpenCV function `inRange`.
+<details>
+    <summary>Hint</summary>
+Sample answers are available at `colourthr.py` if you are stuck.
+</details>
+
+# Representation Basics – Pixels, Colours & Channels
+
+## Task 5: Help mandrill
+Your task is to recover as much of the original mandrill colour image (2 channels, 8 bits per channel) from corrupted images, `mandrill0.jpg`, `mandrill1.jpg`, `mandrill2.jpg` and `mandrill3.jpg`.
+
+1. View the corrupted images and, for each image, make a prediction of what has happened to it. Maybe look at individual colour channels or histograms to investigate your hypothesis.
+2. Write a small OpenCV program for each image which can reconstruct the original mandrill colour image from it as well as possible.
+
+Some images cannot be fully reconstructed.
+
+
 
