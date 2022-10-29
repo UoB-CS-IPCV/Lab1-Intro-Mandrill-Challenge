@@ -16,8 +16,8 @@
 3. Get familiar with basic representation of the image: pixels, channels, and colours
 
 ## Setting up OpenCV
-1. Open a terminal and create virtual environment: `$ python -m venv myproject`, or `conda create -n myproject`
-2. Activate your environment: `$ source myproject/bin/activate`, or `conda activate pytorch-env`
+1. Open a terminal and create virtual environment: `$ python -m venv myproject`, or `conda create -n myproject python=3.8`
+2. Activate your environment: `$ source myproject/bin/activate`, or `conda activate myproject`
 3. Then it shows: `(myproject) [username@it0number ~]$`
 4. Might need to update pip: `$ pip install --upgrade pip`
 5. Install OpenCV packages: `$ pip install numpy opencv-python`, or `conda install numpy` then `conda install -c menpo opencv`
