@@ -85,4 +85,7 @@ Some images cannot be fully reconstructed.
 
 <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill0.jpg" height=200> <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill1.jpg" height=200> <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill2.jpg" height=200> <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/mandrill3.jpg" height=200>
 
+## [OPTIONAL] Task 6: Too dark!
+You went out to take a photo at night, but the photo turned out too dark! Can you write one line of code to enhance the brightness of `darkBristol.png` to make it look like `brightBristol.png`?
 
+<img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/darkBristol.png" height=300>  ⇨ ⇨ ⇨  <img src="https://github.com/UoB-CS-IPCV/Lab1-intro-mandrill-challenge/blob/main/brightBristol.png" height=300> 
